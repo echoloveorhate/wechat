@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2048/2048"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#333",
+    "navigationBarTitleText":"2048小游戏"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "游戏"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "个人"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
